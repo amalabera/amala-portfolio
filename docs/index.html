@@ -1,1 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Amala Bera · Senior Python Developer</title>
+  <meta name="description" content="Senior Python Developer building APIs and data pipelines with FastAPI/Django, AWS, Kafka/Airflow, PostgreSQL. Open to C2C · Immediate.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#0b1220;--muted:#0f172a;--card:#111827;--text:#e5e7eb;--sub:#94a3b8;--brand:#6366f1;--brand2:#22c55e;--ring:#334155}
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:linear-gradient(180deg,var(--bg),#0b1325);color:var(--text);font:16px/1.6 Inter,system-ui,Segoe UI,Arial}
+    a{color:inherit;text-decoration:none}
+    .container{max-width:1080px;margin:0 auto;padding:28px}
+    .header{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:18px}
+    .badge{display:inline-block;padding:.25rem .6rem;border-radius:999px;background:#111827;border:1px solid var(--ring);color:#cbd5e1;font-size:.8rem}
+    nav a{padding:.5rem .7rem;border-radius:10px} nav a:hover{background:#0f172a}
+    .btn{display:inline-flex;gap:.5rem;align-items:center;border-radius:12px;border:1px solid var(--ring);padding:.7rem 1rem;background:#0f172a;color:#e5e7eb}
+    .btn.primary{background:linear-gradient(90deg,var(--brand),var(--brand2));border:none}
+    .section{margin:64px 0}
+    .h1{font-size:clamp(2rem,4vw,3rem);line-height:1.1;margin:0 0 8px 0;font-weight:800;letter-spacing:-.02em}
+    .h2{font-size:1.6rem;margin:0 0 12px 0;font-weight:700}
+    .p{color:var(--sub);margin:0}
+    .grid{display:grid;gap:16px}
+    .cards{grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+    .card{background:linear-gradient(180deg,#0b1220,#0e162a);border:1px solid var(--ring);border-radius:16px;padding:18px}
+    .small{font-size:.9rem;color:#94a3b8}
+    .stat{display:flex;flex-direction:column;border:1px solid var(--ring);border-radius:12px;padding:14px;background:#0b1426}
+    .avatar{border-radius:10px;border:1px solid var(--ring);background:#0f172a}
+    .hero{display:grid;grid-template-columns:1.2fr .8fr;gap:24px;align-items:center}
+    @media (max-width:860px){.hero{grid-template-columns:1fr}}
+    .footer{border-top:1px solid var(--ring);padding:24px 0;color:#94a3b8}
+  </style>
+</head>
+<body>
+  <header class="container header">
+    <div style="display:flex;align-items:center;gap:12px">
+      <!-- Simple inline avatar -->
+      <svg class="avatar" width="40" height="40" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+        <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#6366f1"/><stop offset="1" stop-color="#22c55e"/></linearGradient></defs>
+        <circle cx="120" cy="120" r="116" fill="url(#g)" stroke="#0f172a" stroke-width="8"/>
+        <text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" font-family="Inter, Arial" font-size="84" fill="white">AB</text>
+      </svg>
+      <strong>Amala Bera</strong>
+      <span class="badge">Senior Python Developer</span>
+      <span class="badge">C2C · Immediate</span>
+    </div>
+    <nav class="small">
+      <a href="#projects">Projects</a>
+      <a href="#cases">Case Studies</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero section">
+      <div>
+        <h1 class="h1">I build APIs & data pipelines that are fast, reliable, and well-documented.</h1>
+        <p class="p">Python (FastAPI/Django), AWS, Kafka/Airflow, PostgreSQL · Docker/K8s · CI/CD · Observability.</p>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:16px">
+          <a class="btn primary" href="Amala_Bera_Senior_Python_Developer_C2C_Resume_2025.pdf" download>⬇ Download Resume (C2C)</a>
+          <a class="btn" href="mailto:amalabera4040@gmail.com">✉ Email</a>
+          <a class="btn" href="https://github.com/amalabera" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn" href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:16px">
+          <div class="stat"><b>FastAPI/Django</b><span class="small">OpenAPI · Pydantic · Auth</span></div>
+          <div class="stat"><b>AWS</b><span class="small">ECS/EKS · Lambda · ALB</span></div>
+          <div class="stat"><b>Data</b><span class="small">Airflow · Kafka · PySpark</span></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="h2">Recent wins</div>
+        <hr style="height:1px;border:none;background:linear-gradient(90deg,transparent,var(--ring),transparent);margin:12px 0">
+        <ul class="small">
+          <li>FastAPI + async + Redis: latency ↓, throughput ↑.</li>
+          <li>Airflow SLAs + retries: on-time runs ↑.</li>
+          <li>CI/CD + blue-green: faster releases.</li>
+        </ul>
+        <div class="small" style="margin-top:12px;border:1px dashed #2b3a55;border-radius:12px;padding:10px;background:#0c1a2f;color:#a5b4fc;">
+          Open to <b>Corp-to-Corp</b> · US remote/hybrid/onsite · Immediate start
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2 class="h2">Selected Projects</h2>
+      <p class="p">Runnable repos with docs.</p>
+      <div class="grid cards" style="margin-top:12px">
+        <a class="card" href="https://fastapi-starter-rcby.onrender.com/docs" target="_blank" rel="noopener">
+          <h3>fastapi-starter</h3>
+          <p>JWT auth + SQLModel + tests. Live docs.</p>
+          <p class="small">
+            <a href="https://github.com/amalabera/fastapi-starter" target="_blank" rel="noopener">GitHub</a> ·
+            <a href="https://fastapi-starter-rcby.onrender.com/docs" target="_blank" rel="noopener">Live</a>
+          </p>
+        </a>
+        <a class="card" href="https://github.com/amalabera/airflow-dag-starter" target="_blank">
+          <h3>airflow-dag-starter</h3>
+          <p>CSV → transform → load DAG with retries & SLAs.</p>
+          <p class="small">Airflow · Python · ETL</p>
+        </a>
+        <a class="card" href="https://github.com/amalabera/kafka-pipeline-starter" target="_blank">
+          <h3>kafka-pipeline-starter</h3>
+          <p>Producer/consumer with dockerized Kafka.</p>
+          <p class="small">Kafka · Python · Compose</p>
+        </a>
+        <a class="card" href="https://github.com/amalabera/pyspark-etl-starter" target="_blank">
+          <h3>pyspark-etl-starter</h3>
+          <p>CSV → cleaned Parquet transformations.</p>
+          <p class="small">PySpark · Pandas</p>
+        </a>
+      </div>
+    </section>
+
+    <section id="cases" class="section">
+      <h2 class="h2">Mini Case Studies</h2>
+      <div class="grid cards" style="margin-top:12px">
+        <div class="card">
+          <h3>FastAPI on AWS — P95 ↓, throughput ↑</h3>
+          <p>Rebuilt to FastAPI with async + Redis caching; autoscaling via ALB. Added OpenAPI & typed models.</p>
+          <p class="small"><b>Result:</b> lower latency, higher throughput, faster deploys.</p>
+        </div>
+        <div class="card">
+          <h3>Airflow + Kafka — ETL on-time ↑</h3>
+          <p>Standardized DAGs with retries/alerts; Kafka ingest; PySpark tuning; Postgres indexes.</p>
+          <p class="small"><b>Result:</b> batch window down; on-time runs up.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2 class="h2">Skills</h2>
+      <p class="small">
+        Python • FastAPI • Django • AWS (ECS/EKS/Lambda) • Docker • Kubernetes • PostgreSQL • MongoDB •
+        Airflow • Kafka • PySpark • CI/CD (GitHub Actions) • Observability (Grafana/Datadog)
+      </p>
+    </section>
+
+    <section id="contact" class="section">
+      <h2 class="h2">Contact</h2>
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:12px">
+        <a class="btn" href="mailto:amalabera4040@gmail.com">✉ amalabera4040@gmail.com</a>
+        <a class="btn" href="www.linkedin.com/in/amalabeera" target="_blank">LinkedIn</a>
+        <a class="btn" href="https://github.com/amalabera" target="_blank">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <div>© <span id="y"></span> Amala Bera • Senior Python Developer • C2C · Immediate</div>
+    <script>document.getElementById('y').textContent = new Date().getFullYear()</script>
+  </footer>
+</body>
+</html>
 
